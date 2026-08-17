@@ -155,3 +155,18 @@ td {
 tr:nth-of-type(odd) {
 	background-color: #bddff0;
 }
+label {
+	float: left;
+	display: block;
+	text-align: right;
+	width: 140px;
+	padding-right: 5px;
+}
+input, textarea {
+	display: block;
+	margin-bottom: 20px;
+}
+input[type="submit"] {
+	margin-left: 140px;
+}
+
