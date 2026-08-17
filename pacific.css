@@ -135,3 +135,23 @@ section {
 	padding-left: 2em;
 	padding-right: 2em;
 }
+#special {
+	clear: both;
+}
+table {
+	border: 2px solid #3399cc;
+	border-collapse: collapse;
+}
+td, th {
+	padding: 0.5em;
+	border: 2px solid #3399cc;
+}
+td {
+	text-align: center;
+}
+.text {
+	text-align: left;
+}
+tr:nth-of-type(odd) {
+	background-color: #bddff0;
+}
